@@ -1,0 +1,25 @@
+var savedname = "bruh bruh";
+var savedemail = "bruh";
+var savedphone = "1231231234";
+var savedaddress = '12345 Supreme Avenue';
+var savedapt = "Apt1";
+var savedzip = "12345";
+var savedcity = "Bruh Town";
+var savedstate = "CA";
+var savedcountry = "USA";
+var savedcardnumber = "1234123412341234";
+var savedmonth = "01";
+var savedyear = "2021";
+var savedcvv = "123";
+
+document.getElementById("order_billing_name").value = savedname;
+document.getElementById("order_email").value = savedemail;
+document.getElementById("order_tel").value = savedphone;
+document.getElementById("bo").value = savedaddress;
+document.getElementById("oba3").value = savedapt;
+document.getElementById("order_billing_zip").value = savedzip;
+document.getElementById("order_billing_city").value = savedcity;
+document.getElementById("rnsnckrn").value = savedcardnumber;
+document.getElementById("orcer").value = savedcvv;
+document.getElementsByClassName("iCheck-helper")[1].click();
+document.getElementsByName("commit")[1].click();
