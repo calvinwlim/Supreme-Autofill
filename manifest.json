@@ -5,24 +5,24 @@
     "description": "Supreme Autofill Chrome Extension",
 
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["./src/background.js"]
       },
 
-    "icons": { "16": "bonkdog16px.png",
-        "48": "bonkdog48px.png",
-       "128": "bonkdog128px.png" },
+    "icons": { "16": "./assets/bonkdog16px.png",
+        "48": "./assets/bonkdog48px.png",
+       "128": "./assets/bonkdog128px.png" },
 
     "browser_action": {
-        "default_icon": { "16": "bonkdog16px.png",
-            "48": "bonkdog48px.png",
-           "128": "bonkdog128px.png" },
+        "default_icon": { "16": "./assets/bonkdog16px.png",
+            "48": "./assets/bonkdog48px.png",
+           "128": "./assets/bonkdog128px.png" },
         "default_title": "CalvinPreme"
     },
 
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["main.js"]
+            "js": ["./src/main.js"]
         }
     ],
 
